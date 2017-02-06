@@ -3,15 +3,15 @@
 
 int main()
 {
-   /*Identifying three values to be entered*/
+   //Identifying three values to be entered//
    double n1, n2, n3; 
    
-    /*Displays the Instruction on-screen*/
+    //Displays the Instruction on-screen//
     printf("Enter three numbers: "); 
-     /*Scans what the user entered as n1 to n3*/
+     //Scans what the user entered as n1 to n3//
     scanf("%lf %lf %lf", &n1, &n2, &n3); 
 
-    /*Creating an if Function, which decides whether or not n1 is larger or equal to n2*/
+    //Creating an if Function, which decides whether or not n1 is larger or equal to n2//
     if (n1>=n2)
     {
         if(n1>=n3)
@@ -20,7 +20,7 @@ int main()
             printf("%.2lf is the largest number.", n3);
     }
 
-    /*Creating an else function, which decides whether or not n2 is greater or equal to n3*/
+    //Creating an else function, which decides whether or not n2 is greater or equal to n3//
     else
     {
         if(n2>=n3)
