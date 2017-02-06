@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+   double n1, n2, n3; /*Identifying three values to be entered*/
+   
+    printf("Enter three numbers: ");  /*Displays the Instruction on-screen*/
+    scanf("%lf %lf %lf", &n1, &n2, &n3);  /*Scans what the user entered as n1 to n3*/
+
+    /*Creating an if Function, which decides whether or not n1 is larger or equal to n2*/
+    if (n1>=n2)
+    {
+        if(n1>=n3)
+            printf("%.2lf is the largest number.", n1);
+        else
+            printf("%.2lf is the largest number.", n3);
+    }
+
+    /*Creating an else function, which decides whether or not n2 is greater or equal to n3*/
+    else
+    {
+        if(n2>=n3)
+            printf("%.2lf is the largest number.", n2);
+        else
+            printf("%.2lf is the largest number.",n3);
+    }
+    return 0;
+}
